@@ -1,0 +1,49 @@
+<!-- templates/result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood to Color Result</title>
+    
+    <style>
+        body {
+            background-color: {{ color }};
+            color: #eacbcb;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .color-description {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        .back-button {
+            margin-top: 20px;
+    </style>
+</head>
+<body>
+
+    <h1>Result</h1>
+
+    <p>Your mood: {{ mood }}</p>
+
+    <!-- Parsed text (replace this with your actual parsed text) -->
+    <div>
+        <h2>Generated Color</h2>
+        <p>{{ color }}</p>
+    </div>
+
+    <!-- Color description -->
+    <div class="color-description">
+        <h2>Color Description</h2>
+        <p>{{ text }}</p>
+    </div>
+    
+    <a href="{{ url_for('index') }}" class="btn btn-secondary back-button">Back to Main</a>
+
+
+</body>
+</html>
