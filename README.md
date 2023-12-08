@@ -64,7 +64,7 @@ It can be verified that the image is successfully uploaded by checking the repos
 
 Here is what this project's repository looks like after the push.
 
-![docker_hub_repo](./imgs/dockehub.png)
+![docker_hub_repo](./imgs/dockerhub.png)
 
 ## Deployment
 
