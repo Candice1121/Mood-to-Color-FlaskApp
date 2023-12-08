@@ -13,7 +13,6 @@ Yuwen Cai
 
 The purpose of this individual project is to build a web application using Flask. We call the API for a Large Language Model (LLM) within the web app to implement our functionality.
 
-![openai](./imgs/openapi.png)
 
 ## Overview
 
@@ -27,13 +26,13 @@ There are two routings in the app:
 
 1. `/`
 
-    The homepage is routed to the `index()` function, which returns the `index.html` with a list of 30 NBA teams rendered as choices of a dropdown menu.
+    The homepage is routed to the `index()` function, which returns the `index.html` with a text box for users to write their mood.
 
 ![index_page](./imgs/index.png)
 
-2. `/team`
+2. `/get-color`
     
-    The result page displays the result returned by the LLM to the user.
+    The result page displays the color suggestion and description.
 
 ![result_page](./imgs/result.png)
 
@@ -41,6 +40,7 @@ There are two routings in the app:
 
 In this project, the API of OpenAI is integrated with the app. A token was generated for the app to use.
 
+![openai](./imgs/openapi.png)
 
 ## Containerization
 
