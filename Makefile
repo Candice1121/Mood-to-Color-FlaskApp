@@ -14,4 +14,18 @@ lint:
 	#ruff linting is 10-100X faster than pylint
 	ruff check *.py
 	
-all: install lint test format deploy
+
+build_docker:
+	docker build -t flask-app:latest .
+
+run_docker:
+	docker run -p 5000:5000 flask-app:latest
+
+stop_docker:
+	docker stop flask-app
+
+clean_docker:
+	docker rm flask-app
+	docker rmi flask-app:latest
+
+deploy: build_docker run_docker open

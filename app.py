@@ -51,4 +51,4 @@ def get_color_description(color_suggestion):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(debug=True)
