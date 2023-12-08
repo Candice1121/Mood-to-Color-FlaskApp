@@ -12,4 +12,3 @@ workers = (multiprocessing.cpu_count() * 2) + 1
 threads = workers
 
 timeout = 120
-
