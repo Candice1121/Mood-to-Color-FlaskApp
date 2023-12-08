@@ -10,7 +10,7 @@ format:
 
 lint:
 	#disable comment to test speed
-	pylint --disable=R,C,line-too-long --ignore-patterns=test_.*?py *.py mylib/*.py
+	pylint --disable=R,C,line-too-long --ignore-patterns=test_.*?py *.py 
 	#ruff linting is 10-100X faster than pylint
 	#ruff check *.py
 	
