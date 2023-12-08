@@ -76,7 +76,7 @@ Here is a screenshot of the Azure page.
 
 Configuration settings:
 
-![app config](./imgs/condig.png)
+![app config](./imgs/config.png)
 
 ## Reference
 https://github.com/DerekLW6/Azure-Flask-App
