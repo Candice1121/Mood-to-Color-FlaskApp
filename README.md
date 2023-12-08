@@ -4,11 +4,16 @@
 Yuwen Cai 
 
 ## Website & Video explanation
-[Mood Color Generator](https://colorfulmood.azurewebsites.net)<br />[Video explanation](https://youtu.be/KH3d2TauRNk)
+[Mood Color Generator](https://colorfulmood.azurewebsites.net)
+
+
+[Youtuve Link](https://youtu.be/KH3d2TauRNk)
 
 ## Purpose of the project
 
 The purpose of this individual project is to build a web application using Flask. We call the API for a Large Language Model (LLM) within the web app to implement our functionality.
+
+![openai](./imgs/openapi.png)
 
 ## Overview
 
