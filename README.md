@@ -7,7 +7,7 @@ Yuwen Cai
 [Mood Color Generator](https://colorfulmood.azurewebsites.net)
 
 
-[Youtuve Link](https://youtu.be/KH3d2TauRNk)
+[Youtube Link](https://youtu.be/Lgg_hsio6bo)
 
 ## Purpose of the project
 
